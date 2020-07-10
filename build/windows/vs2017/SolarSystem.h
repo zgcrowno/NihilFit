@@ -1,0 +1,37 @@
+#pragma once
+
+#include "NihilFit.h"
+#include "OrbitRing.h"
+#include "Sun.h"
+#include <vector>
+
+namespace nihilFit
+{
+    // Using virtual inheritance for ScrollMod to prevent member ambiguity errors when also inheriting from InputHandler.
+    class SolarSystem : public ScrollObject
+    {
+    protected:
+        //! Called on object creation
+        virtual void OnCreate();
+        //! Called on object deletion
+        virtual void OnDelete();
+        //! Called on object collision
+        virtual orxBOOL OnCollide(
+            ScrollObject *_poCollider,
+            const orxSTRING _zPartName,
+            const orxSTRING _zColliderPartName,
+            const orxVECTOR &_rvPosition,
+            const orxVECTOR &_rvNormal);
+        //! Called on clock update
+        virtual void Update(const orxCLOCK_INFO &_rstInfo);
+    public:
+        int m_iSelectedOrbitRingIndex;
+        OrbitRing *m_pSelectedOrbitRing;
+        Sun *m_pSun;
+        std::vector<OrbitRing*> m_cOrbitRings;
+        orxVECTOR m_vProloguePos;
+        orxVECTOR m_vPhaseOnePos;
+        orxVECTOR m_vPhaseTwoPos;
+        orxVECTOR m_vPhaseTwoScale;
+    };
+}

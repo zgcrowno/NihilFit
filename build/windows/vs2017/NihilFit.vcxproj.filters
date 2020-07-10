@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{9F0B50E6-BAD9-E942-9CCE-3DF3FA41BF05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{D51BF722-CC37-DF4C-9D7E-B6E4DA771C12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\nuklear">
+      <UniqueIdentifier>{EC1C99B6-A8F1-1641-B902-9F3D8AE492A2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Scroll">
+      <UniqueIdentifier>{1AD774DF-A220-3A49-B74A-F41B829E16E2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="inline">
+      <UniqueIdentifier>{B765CB9A-F26F-0D44-B3D9-3CCD674583DB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="config">
+      <UniqueIdentifier>{7E2ACC79-F63B-F84F-98AC-C443497E8F6D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\H">
+      <UniqueIdentifier>{ec4b1d62-4d7f-4ea0-bacf-e91f7e2fee3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\CPP">
+      <UniqueIdentifier>{c91e8b12-a9c3-4cfc-b574-6abcfc21621f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\EnumClass">
+      <UniqueIdentifier>{68b74bbe-dd64-4ebe-8467-b6c181378eb5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\include\Scroll\Scroll.inl">
+      <Filter>inline</Filter>
+    </None>
+    <None Include="..\..\..\include\Scroll\ScrollBase.inl">
+      <Filter>inline</Filter>
+    </None>
+    <None Include="..\..\..\include\Scroll\ScrollEd.inl">
+      <Filter>inline</Filter>
+    </None>
+    <None Include="..\..\..\include\Scroll\ScrollObject.inl">
+      <Filter>inline</Filter>
+    </None>
+    <None Include="..\..\..\data\config\CreationTemplate.ini">
+      <Filter>config</Filter>
+    </None>
+    <None Include="..\..\..\data\config\NihilFit.ini">
+      <Filter>config</Filter>
+    </None>
+    <None Include="..\..\..\data\config\NihilFitd.ini">
+      <Filter>config</Filter>
+    </None>
+    <None Include="..\..\..\data\config\NihilFitp.ini">
+      <Filter>config</Filter>
+    </None>
+    <None Include="..\..\..\data\config\SettingsTemplate.ini">
+      <Filter>config</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\include\NihilFit.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\orxNuklear.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\nuklear\nuklear.h">
+      <Filter>include\nuklear</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\nuklear\nuklearOG.h">
+      <Filter>include\nuklear</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\Scroll\Scroll.h">
+      <Filter>include\Scroll</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\Scroll\ScrollBase.h">
+      <Filter>include\Scroll</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\Scroll\ScrollEd.h">
+      <Filter>include\Scroll</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\Scroll\ScrollObject.h">
+      <Filter>include\Scroll</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneSolarSystem.h">
+      <Filter>src\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Phase.h">
+      <Filter>src\EnumClass</Filter>
+    </ClInclude>
+    <ClInclude Include="Satellite.h">
+      <Filter>src\H</Filter>
+    </ClInclude>
+    <ClInclude Include="SpaceJunk.h">
+      <Filter>src\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Planet.h">
+      <Filter>src\H</Filter>
+    </ClInclude>
+    <ClInclude Include="SolarSystem.h">
+      <Filter>src\H</Filter>
+    </ClInclude>
+    <ClInclude Include="OrbitRing.h">
+      <Filter>src\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Sun.h">
+      <Filter>src\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Star.h">
+      <Filter>src\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Asteroid.h">
+      <Filter>src\H</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\NihilFit.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneSolarSystem.cpp">
+      <Filter>src\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Satellite.cpp">
+      <Filter>src\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="SpaceJunk.cpp">
+      <Filter>src\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Planet.cpp">
+      <Filter>src\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="SolarSystem.cpp">
+      <Filter>src\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="OrbitRing.cpp">
+      <Filter>src\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Sun.cpp">
+      <Filter>src\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Star.cpp">
+      <Filter>src\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Asteroid.cpp">
+      <Filter>src\CPP</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
